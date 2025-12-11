@@ -3,8 +3,6 @@ package com.ing.zoo;
 import com.ing.zoo.interfaces.LeavesEaters;
 
 public class Zebra extends Animal implements LeavesEaters {
-    public String name;
-
     public Zebra(String name)
     {
         super(name);

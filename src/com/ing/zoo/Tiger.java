@@ -1,6 +1,5 @@
 package com.ing.zoo;
 
-import com.ing.zoo.interfaces.LeavesEaters;
 import com.ing.zoo.interfaces.MeatEaters;
 import com.ing.zoo.interfaces.TrickPerformers;
 

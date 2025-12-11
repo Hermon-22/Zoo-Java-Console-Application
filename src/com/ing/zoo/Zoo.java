@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 
 public class Zoo {
-    public static void main(String[] args)
+    static void main(String[] args)
     {
         String[] commands = new String[4];
         commands[0] = "hello";

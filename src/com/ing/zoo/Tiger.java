@@ -6,7 +6,6 @@ import com.ing.zoo.interfaces.TrickPerformers;
 import java.util.Random;
 
 public class Tiger extends Animal implements MeatEaters, TrickPerformers {
-    public String trick;
 
     public Tiger(String name)
     {
@@ -28,6 +27,7 @@ public class Tiger extends Animal implements MeatEaters, TrickPerformers {
     {
         Random random = new Random();
         int rnd = random.nextInt(2);
+        String trick;
         if(rnd == 0)
         {
             trick = "jumps in tree";

@@ -7,7 +7,6 @@ import com.ing.zoo.interfaces.TrickPerformers;
 import java.util.Random;
 
 public class Pig extends Animal implements MeatEaters, LeavesEaters, TrickPerformers {
-    public String trick;
 
     public Pig(String name) {
         super(name);
@@ -35,6 +34,7 @@ public class Pig extends Animal implements MeatEaters, LeavesEaters, TrickPerfor
     {
         Random random = new Random();
         int rnd = random.nextInt(2);
+        String trick;
         if(rnd == 0)
         {
             trick = "rolls in the mud";

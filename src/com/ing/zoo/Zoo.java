@@ -126,7 +126,7 @@ public class Zoo {
 
             case "perform":
                 if (parts.length < 2 || !parts[1].equals("trick")) {
-                    System.out.println("Unknown command");
+                    System.out.println("Onbekende command");
                     break;
                 }
 
